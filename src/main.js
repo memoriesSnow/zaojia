@@ -4,7 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import ownbutton from 'ownbutton'
+import 'ownbutton/dist/ownbutton.css'
 Vue.config.productionTip = false
+Vue.use(ownbutton)
 
 new Vue({
   router,
